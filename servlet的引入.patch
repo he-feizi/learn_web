@@ -1,0 +1,67 @@
+Index: src/main/java/com/feifei/servlet/HelloServlet.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/feifei/servlet/HelloServlet.java	(date 1651927055709)
++++ src/main/java/com/feifei/servlet/HelloServlet.java	(date 1651927055709)
+@@ -0,0 +1,26 @@
++package com.feifei.servlet;
++
++
++import javax.servlet.ServletException;
++import javax.servlet.annotation.WebServlet;
++import javax.servlet.http.HttpServlet;
++import javax.servlet.http.HttpServletRequest;
++import javax.servlet.http.HttpServletResponse;
++import java.io.IOException;
++import java.io.PrintWriter;
++
++@WebServlet(urlPatterns = "/")
++public class HelloServlet extends HttpServlet {
++    @Override
++    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
++        resp.setContentType("text/html");
++        String name = req.getParameter("name");
++        if (name == null) {
++            name = "world";
++        }
++        PrintWriter pw = resp.getWriter();
++        pw.write("<h1>Hello, " + name + "!</h1>");
++        pw.flush();
++    }
++
++}
+Index: src/main/java/com/feifei/servlet/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/feifei/servlet/Main.java	(date 1651926819341)
++++ src/main/java/com/feifei/servlet/Main.java	(date 1651926819341)
+@@ -0,0 +1,25 @@
++package com.feifei.servlet;
++
++import org.apache.catalina.Context;
++import org.apache.catalina.LifecycleException;
++import org.apache.catalina.WebResourceRoot;
++import org.apache.catalina.startup.Tomcat;
++import org.apache.catalina.webresources.DirResourceSet;
++import org.apache.catalina.webresources.StandardRoot;
++
++import java.io.File;
++
++public class Main {
++    public static void main(String[] args) throws LifecycleException {
++        Tomcat tomcat = new Tomcat();
++        tomcat.setPort(Integer.getInteger("port", 8080));
++        tomcat.getConnector();
++
++        Context ctx = tomcat.addWebapp("", new File("src/main/webapp").getAbsolutePath());
++        WebResourceRoot resourceRoot = new StandardRoot(ctx);
++        resourceRoot.addPreResources(new DirResourceSet(resourceRoot, "/WEB-INF/classes", new File("target/classes").getAbsolutePath(), "/"));
++        ctx.setResources(resourceRoot);
++        tomcat.start();
++        tomcat.getServer().await();
++    }
++}

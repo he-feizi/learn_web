@@ -1,14 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e91ccfd-a5ad-4d47-960d-c0c0af369c6f" name="Default Changelist" comment="" />
+    <list default="true" id="9e91ccfd-a5ad-4d47-960d-c0c0af369c6f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feifei/servlet/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/feifei/servlet/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Program\Code\ideaProject\learnweb\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -23,26 +46,43 @@
     </option>
   </component>
   <component name="ProjectId" id="28pStNb3ANoE4Ko0jnTR9Peu1Rw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.capture" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Program\Code\ideaProject\learnweb\src\main\java\com\feifei\httpserver" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.feifei.servlet.Main" />
+      <module name="learnweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.feifei.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.feifei.httpserver.Server" />
       <module name="learnweb" />
@@ -56,8 +96,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Server" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
@@ -84,37 +129,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651912247554</updated>
-      <workItem from="1651912250788" duration="514000" />
+      <workItem from="1651912250788" duration="4011000" />
     </task>
+    <task id="LOCAL-00001" summary="从web基础学起">
+      <created>1651912890908</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651912890908</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="从web基础学起" />
+    <option name="LAST_COMMIT_MESSAGE" value="从web基础学起" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="180" key="CommitChangelistDialog2" timestamp="1651912890215">
+    <state x="462" y="141" key="#Main" timestamp="1651927483677">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="363" y="180" key="CommitChangelistDialog2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912890215" />
+    <state x="462" y="141" key="#Main/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927483677" />
+    <state x="206" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651927588108">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="206" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927588108" />
+    <state x="481" y="270" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1651927543965">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="481" y="270" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927543965" />
+    <state x="363" y="180" key="CommitChangelistDialog2" timestamp="1651927911917">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="363" y="180" key="CommitChangelistDialog2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927911917" />
     <state x="531" y="238" key="FileChooserDialogImpl" timestamp="1651912759015">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="238" key="FileChooserDialogImpl/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912759015" />
-    <state width="1458" height="248" key="GridCell.Tab.0.bottom" timestamp="1651912536570">
+    <state width="1458" height="258" key="GridCell.Tab.0.bottom" timestamp="1651927590602">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="248" key="GridCell.Tab.0.bottom/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912536570" />
-    <state width="1458" height="248" key="GridCell.Tab.0.center" timestamp="1651912536570">
+    <state width="1458" height="258" key="GridCell.Tab.0.bottom/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927590602" />
+    <state width="1458" height="258" key="GridCell.Tab.0.center" timestamp="1651927590602">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="248" key="GridCell.Tab.0.center/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912536570" />
-    <state width="1458" height="248" key="GridCell.Tab.0.left" timestamp="1651912536570">
+    <state width="1458" height="258" key="GridCell.Tab.0.center/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927590602" />
+    <state width="1458" height="258" key="GridCell.Tab.0.left" timestamp="1651927590602">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="248" key="GridCell.Tab.0.left/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912536570" />
-    <state width="1458" height="248" key="GridCell.Tab.0.right" timestamp="1651912536570">
+    <state width="1458" height="258" key="GridCell.Tab.0.left/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927590602" />
+    <state width="1458" height="258" key="GridCell.Tab.0.right" timestamp="1651927590602">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="248" key="GridCell.Tab.0.right/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912536570" />
+    <state width="1458" height="258" key="GridCell.Tab.0.right/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927590602" />
+    <state x="254" y="125" key="SettingsEditor" timestamp="1651927441006">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="254" y="125" key="SettingsEditor/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927441006" />
   </component>
 </project>
