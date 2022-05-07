@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e91ccfd-a5ad-4d47-960d-c0c0af369c6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feifei/servlet/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/feifei/servlet/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat.8080/work/Tomcat/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651912247554</updated>
-      <workItem from="1651912250788" duration="4011000" />
+      <workItem from="1651912250788" duration="5006000" />
     </task>
     <task id="LOCAL-00001" summary="从web基础学起">
       <created>1651912890908</created>
@@ -138,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651912890908</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="servlet的引入">
+      <created>1651927911912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651927911912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="servlet的引入">
+      <created>1651927932884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651927932884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +154,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="从web基础学起" />
-    <option name="LAST_COMMIT_MESSAGE" value="从web基础学起" />
+    <MESSAGE value="servlet的引入" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet的引入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="462" y="141" key="#Main" timestamp="1651927483677">
@@ -162,10 +170,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="481" y="270" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927543965" />
-    <state x="363" y="180" key="CommitChangelistDialog2" timestamp="1651927911917">
+    <state x="363" y="180" key="CommitChangelistDialog2" timestamp="1651927932442">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="363" y="180" key="CommitChangelistDialog2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927911917" />
+    <state x="363" y="180" key="CommitChangelistDialog2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927932442" />
     <state x="531" y="238" key="FileChooserDialogImpl" timestamp="1651912759015">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -190,5 +198,9 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="254" y="125" key="SettingsEditor/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927441006" />
+    <state x="343" y="216" key="Vcs.Push.Dialog.v2" timestamp="1651927934721">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="216" key="Vcs.Push.Dialog.v2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651927934721" />
   </component>
 </project>
