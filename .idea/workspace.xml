@@ -29,7 +29,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -90,10 +92,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="180" key="CommitChangelistDialog2" timestamp="1651912793489">
+    <state x="363" y="180" key="CommitChangelistDialog2" timestamp="1651912890215">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="363" y="180" key="CommitChangelistDialog2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912793489" />
+    <state x="363" y="180" key="CommitChangelistDialog2/0.0.1500.960/451.-1080.1920.1040@0.0.1500.960" timestamp="1651912890215" />
     <state x="531" y="238" key="FileChooserDialogImpl" timestamp="1651912759015">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
